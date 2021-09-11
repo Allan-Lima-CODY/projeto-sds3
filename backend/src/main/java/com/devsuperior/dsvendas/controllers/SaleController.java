@@ -31,4 +31,5 @@ public class SaleController {
 		List<SaleSumDTO> list = service.amountGroupedBySeller();
 		return ResponseEntity.ok(list);
 	}
+	
 }
