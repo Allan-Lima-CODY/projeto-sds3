@@ -16,7 +16,7 @@ import com.devsuperior.dsvendas.dto.SaleSumDTO;
 import com.devsuperior.dsvendas.service.SaleService;
 
 @RestController
-@RequestMapping(value = "/sales")
+@RequestMapping(value = "sales")
 public class SaleController {
 	@Autowired
 	private SaleService service;
